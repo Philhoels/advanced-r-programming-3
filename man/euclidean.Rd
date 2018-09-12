@@ -18,5 +18,5 @@ The function returns the greatest common denominator of a and b.
 Euclidean Algorithm
 }
 \examples{
-eucledian (6,22)
+euclidean (6,22)
 }
