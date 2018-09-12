@@ -1,5 +1,5 @@
 # Advanced Programming in R - Assignment 3
-
+[![Build Status](https://travis-ci.com/flennic/advanced-r-programming-3.svg?branch=master)](https://travis-ci.com/flennic/advanced-r-programming-3)
 
 This is the 3rd assignment of the course Advanced Programming in R at Linköping University.
 
