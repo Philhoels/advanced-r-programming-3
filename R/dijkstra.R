@@ -6,7 +6,6 @@
 #' @return A vector consisting of the shortest paths from the node of origin "init_node" to the rest of the nodes. This is given ordering the nodes from smallest to largest.
 #' @export
 #'
-#' @examples
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Pseudocode
 dijkstra = function(graph, init_node) {
   if (!is.data.frame(graph) || length(graph) != 3) stop()
