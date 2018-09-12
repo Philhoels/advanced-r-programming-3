@@ -12,7 +12,7 @@
 #'                         w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
 #'
 #' dijkstra(wiki_graph, 1) #Loads the previous graph in the function
-#' [1] 0 7 9 20 20 11      #Final vector containing the results
+
 #' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Pseudocode
 dijkstra = function(graph, init_node) {
   if (!is.data.frame(graph) || length(graph) != 3) stop()
