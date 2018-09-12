@@ -11,5 +11,6 @@ This is the 3rd assignment of the course Advanced Programming in R at Linköping
 
 
 2. Create the R package
+- Create Repository
 
 
