@@ -13,7 +13,8 @@
 dijkstra = function(graph, init_node) {
   if (!is.data.frame(graph) || length(graph) != 3) stop()
   if (!is.numeric(init_node)) stop()
-  if (length(graph[1]) != length(graph[2]) || length(graph[1]) != length(graph[3])) stop()
+  if (length(setdiff(names(graph),  c('v1', 'v2', 'w'))) > 1) stop()
+  if (!init_node %in% graph$v1) stop()
 
   # Algorithm
 
