@@ -7,7 +7,7 @@
 #' @export
 #'
 #' @examples
-#' eucledian (6,22)
+#' euclidean (6,22)
 euclidean = function(a, b){
 
   stopifnot(is.numeric(a) && is.numeric(b))
