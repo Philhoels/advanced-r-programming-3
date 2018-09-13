@@ -1,16 +1,10 @@
 # Advanced Programming in R - Assignment 3
 [![Build Status](https://travis-ci.com/flennic/advanced-r-programming-3.svg?branch=master)](https://travis-ci.com/flennic/advanced-r-programming-3)
 
-This is the 3rd assignment of the course Advanced Programming in R at Linköping University.
+This is the 3rd assignment of the course Advanced Programming in R at Linköping University in 2018.
 
-## Tasks
+Course information and all assignments can be found at https://www.ida.liu.se/~732A94/info/courseinfo.en.shtml.
 
-1. Write the R Code
-- In the first task we had to write a function which uses the eucledian algorithm to find the common divisor of two numbers.
-- The second function to be created is the dijkstra algorithm. It is supposed to calculate the distance from an initial node to every other node. 
+## Exercise
 
-
-2. Create the R package
-- Create Repository
-
-
+The exercise for the 3rd assignment is to implement the euclidean and dijkstra algorithm.
