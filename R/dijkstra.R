@@ -10,6 +10,8 @@
 #' @examples
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
+#'
+#' @export
 dijkstra = function(graph, init_node) {
 
   # Input validation

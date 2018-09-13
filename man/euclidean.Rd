@@ -12,14 +12,15 @@ euclidean(a, b)
 \item{b}{Any numeric value greater than 0.}
 }
 \value{
-The function returns the greatest common denominator of a and b.
+Returns the greatest common denominator of a and b.
 }
 \description{
 Euclidean Algorithm
 }
 \examples{
-euclidean (6, 22)
-euclidean (100, 1000)
+euclidean(6, 22)
+euclidean(100, 1000)
+
 }
 \references{
 https://en.wikipedia.org/wiki/Euclidean_algorithm

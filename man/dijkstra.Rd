@@ -20,6 +20,7 @@ Dijkstra Algorithm
 \examples{
 dijkstra(wiki_graph, 1)
 dijkstra(wiki_graph, 3)
+
 }
 \references{
 https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
