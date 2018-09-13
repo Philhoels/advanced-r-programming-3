@@ -1,13 +1,18 @@
 #' Dijkstra Algorithm
 #'
-#' @param graph  A data.frame, it has to consist of 3 vectors named 'v1', 'v2' and 'w' and all must have the same length as shown in the example.
-#' @param init_node A number.
+#' @param graph A \code{data.frame} which consist of 3 vectors named \code{v1}, \code{v1} and \code{w} and all must have the same length as shown in the example. \code{v1} and \code{v2} represent one edge in the graph, while \code{w} holds the distance. Edges must be included twice, from \code{v1} to \code{v2} and the other way round.
+#' @param init_node A scalar stating from which nodes the distances are to be calculated.
 #'
-#' @return A vector consisting of the shortest paths from the node of origin "init_node" to the rest of the nodes. This is given ordering the nodes from smallest to largest.
-#' @export
+#' @return Returns a vector consisting of the shortest paths from the node of origin \code{init_node} to the rest of the nodes.
 #'
-#' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Pseudocode
+#' @references https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#'
+#' @examples
+#' dijkstra(wiki_graph, 1)
+#' dijkstra(wiki_graph, 3)
 dijkstra = function(graph, init_node) {
+
+  # Input validation
   if (!is.data.frame(graph) || length(graph) != 3) stop()
   if (!is.numeric(init_node)) stop()
   if (length(setdiff(names(graph),  c('v1', 'v2', 'w'))) > 1) stop()
@@ -60,4 +65,3 @@ dijkstra = function(graph, init_node) {
   }
   return(nodes$Distance)
 }
-

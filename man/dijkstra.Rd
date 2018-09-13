@@ -7,16 +7,20 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{A data.frame, it has to consist of 3 vectors named 'v1', 'v2' and 'w' and all must have the same length as shown in the example.}
+\item{graph}{A \code{data.frame} which consist of 3 vectors named \code{v1}, \code{v1} and \code{w} and all must have the same length as shown in the example. \code{v1} and \code{v2} represent one edge in the graph, while \code{w} holds the distance. Edges must be included twice, from \code{v1} to \code{v2} and the other way round.}
 
-\item{init_node}{A number.}
+\item{init_node}{A scalar stating from which nodes the distances are to be calculated.}
 }
 \value{
-A vector consisting of the shortest paths from the node of origin "init_node" to the rest of the nodes. This is given ordering the nodes from smallest to largest.
+Returns a vector consisting of the shortest paths from the node of origin \code{init_node} to the rest of the nodes.
 }
 \description{
 Dijkstra Algorithm
 }
+\examples{
+dijkstra(wiki_graph, 1)
+dijkstra(wiki_graph, 3)
+}
 \references{
-https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Pseudocode
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 }

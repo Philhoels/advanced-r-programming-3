@@ -7,9 +7,9 @@
 euclidean(a, b)
 }
 \arguments{
-\item{a}{Any numeric value greater than 0}
+\item{a}{Any numeric value greater than 0.}
 
-\item{b}{Any numeric value greater than 0}
+\item{b}{Any numeric value greater than 0.}
 }
 \value{
 The function returns the greatest common denominator of a and b.
@@ -18,5 +18,9 @@ The function returns the greatest common denominator of a and b.
 Euclidean Algorithm
 }
 \examples{
-euclidean (6,22)
+euclidean (6, 22)
+euclidean (100, 1000)
+}
+\references{
+https://en.wikipedia.org/wiki/Euclidean_algorithm
 }
