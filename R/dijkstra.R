@@ -29,8 +29,6 @@ dijkstra = function(graph, init_node) {
                      rep(Inf, times = length(graph[1])))
   names(nodes) = c("Edge", "Visited", "Distance")
 
-  print(nodes)
-
   ## 2
   ### Set the distance to to init_node to 0 and set the current_node to init_node
   nodes[nodes$Edge == init_node, 3] = 0
