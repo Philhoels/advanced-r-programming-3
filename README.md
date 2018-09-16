@@ -8,3 +8,14 @@ Course information and all assignments can be found at https://www.ida.liu.se/~7
 ## Exercise
 
 The exercise for the 3rd assignment is to implement the euclidean and dijkstra algorithm.
+
+
+## Installation
+
+The package can be downloaded via github with:
+
+```{r installation, eval = FALSE}
+devtools::install_git("https://github.com/flennic/advanced-r-programming-3.git")
+```
+
+
